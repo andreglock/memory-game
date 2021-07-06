@@ -1,13 +1,13 @@
 // The following line makes sure your styles are included in the project. Don't remove this.
 import '../styles/main.scss';
 // Import any additional modules you want to include below \/
-import dogOne from '../images/dogOne.jpg'; // Tell webpack this JS file uses those images
-import dogTwo from '../images/dogTwo.jpg';
-import pacOne from '../images/pacOne.jpg';
-import pacTwo from '../images/pacTwo.jpg';
-import eggOne from '../images/eggOne.jpg';
-import eggTwo from '../images/eggTwo.jpg';
-import back from '../images/back.jpg'
+import dogOne from './../images/dogOne.jpg'; // Tell webpack this JS file uses those images
+import dogTwo from './../images/dogTwo.jpg';
+import pacOne from './../images/pacOne.jpg';
+import pacTwo from './../images/pacTwo.jpg';
+import eggOne from './../images/eggOne.jpg';
+import eggTwo from './../images/eggTwo.jpg';
+import back from './../images/back.jpg'
 
 
 // \/ All of your javascript should go here \/
