@@ -1,0 +1,51 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// This is where your styles can go, import any other scss or css files here or write your own style directly below
+
+body,
+body * {
+  box-sizing: border-box;
+}
+
+div.game-container {
+  display: flex;
+}
+
+.image-flip {
+  margin-bottom:200px;
+  width: 300px;
+  height: 250px;
+}
+
+.flipcard {
+  transform: rotateY(180deg);
+}
+  
+.mainflip {
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+  
+.frontside, .backside {
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+  
+.frontside {
+  transform: rotateY(0deg);
+  z-index: 2;
+}
+  
+.backside {
+  background: white;
+  transform: rotateY(-180deg);
+}
+
+.card-img-cover {
+  width: 20rem;
+  height: 27rem;
+}
